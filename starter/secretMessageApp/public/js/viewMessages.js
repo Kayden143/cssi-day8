@@ -10,6 +10,7 @@ const getMessages = () => {
     });
 }
 
+
 const findMessage = (myPass) => {
     const messagesRef = firebase.database().ref();
     messagesRef.on('value', (snapshot) => {
@@ -24,7 +25,6 @@ const findMessage = (myPass) => {
 	}
     });
 }
-
 
 document.querySelector("#viewMsg").addEventListener("click", () => {
  const passcode = document.querySelector("#passcode").value;
