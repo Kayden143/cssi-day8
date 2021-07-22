@@ -1,5 +1,9 @@
 {
   "projects": {
+<<<<<<< HEAD
     "default": "secret-messaging-app-286b5"
+=======
+    "default": "secret-messaging-app-69ac0"
+>>>>>>> 9346cb2fbb5f4a2dea8c5f0c30d4ff4d4c1ce0bb
   }
 }
